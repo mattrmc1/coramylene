@@ -6,6 +6,10 @@
   font-family: "Brandon-Reg";
   src: url('/fonts/Brandon_reg.otf');
 }
+@font-face {
+  font-family: "Brandon-Thin";
+  src: url('/fonts/Brandon_thin.otf');
+}
 
 body {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
@@ -17,9 +21,9 @@ body {
   background-image: url('/img/background.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #1C0000;
+  background-color: #1d0000;
   min-height: 100vh;
-  background-size: contain;
+  background-size: auto;
   color: #561717;
 }
 
@@ -65,9 +69,9 @@ nav a {
 }
 
 .nav-link {
+  font-family: "Brandon-Thin";
   font-size: 1.5rem;
   text-transform: uppercase;
-  font-weight: 200;
   letter-spacing: .4rem;
   transition: all .2s ease-in-out;
 }
