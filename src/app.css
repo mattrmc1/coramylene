@@ -29,14 +29,14 @@ body {
 
 a {
   text-decoration: none;
-  color: #108db8;
   font-weight: bold;
 }
 
 h1 {
-  font-family: "Brandon-Black";
+  font-family: "Brandon-Reg";
   font-size: 6rem;
   color: white;
+  padding: 30px;
 }
 
 img {
@@ -57,9 +57,7 @@ nav a {
   padding: 1rem;
 }
 
-.m-10 {
-  margin: 10px;
-}
+/*navigation*/
 
 .nav-item {
   margin: 0 10px;
@@ -86,12 +84,104 @@ nav a {
   transition: all .2s ease-in-out;
 }
 
-.nav-img {
+.nav-img img {
   height: 200px;
 }
 
 .mobile-only {
   display: none;
+}
+
+/*Hexagon*/
+
+.list-hex-grid {
+  text-align: center;
+  margin: 55px auto;
+  padding-top: 2px;
+}
+.hex {
+  position:relative;
+  max-width:100%;
+  width:190px;
+  display:inline-block;
+  vertical-align:middle;
+  margin: 37px 10px;
+  z-index:10;
+
+  transition: all .2s ease-in-out;
+}
+.hex:hover {
+  transform: scale(1.1);
+  z-index: 99;
+
+  transition: all .2s ease-in-out;
+}
+.hex-left:before,
+.hex-right:before {
+  height:220px;
+  width:220px;
+}
+.hex-left:before {
+  transform:rotate(-60deg) translate(-110px,0);
+}
+.hex-right:before {
+  transform:rotate(60deg) translate(40px,40px);
+}
+.hex-image {
+  height:110px;
+  background-repeat:no-repeat;
+  background-position:50% 50%;
+  background-size:auto 260px;
+  display:block;
+}
+.hex-image:hover {
+  cursor: pointer;
+}
+.hex-left,
+.hex-right {
+  position:absolute;
+  height:100%;
+  width:100%;
+  z-index:-2;
+  top:0;
+  left:0;
+  overflow:hidden;
+  background:inherit;
+}
+.hex-left:before,
+.hex-right:before {
+  content:'';
+  position:absolute;
+  background:inherit;
+  left:0;
+}
+.hex-left {
+  z-index:-1;
+  transform:rotate(60deg);
+}
+.hex-left:before {
+  transform-origin:0 0;
+}
+.hex-right {
+  transform:rotate(-60deg);
+}
+.hex-right:before {
+  bottom:0;
+}
+
+/*carousel*/
+
+.carousel-image {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.modal-content {
+  background: transparent;
+}
+.modal-body {
+  padding: 0;
 }
 
 @media (max-width: 992px) {
@@ -108,4 +198,10 @@ nav a {
   .nav-img {
     display: none;
   }
+}
+
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
 }

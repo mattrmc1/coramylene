@@ -7,7 +7,7 @@ import Hexagons from '../components/home/Hexagons';
 
 export default withSiteData(() => (
   <div>
-    <h1 className="text-center">Cora Mylene</h1>
+    <h1 className="text-center text-uppercase">Cora Mylene Tattoos</h1>
     <Hexagons />
   </div>
 ))

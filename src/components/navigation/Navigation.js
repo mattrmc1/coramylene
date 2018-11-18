@@ -48,8 +48,9 @@ export default class Navigation extends Component {
 			      </li>
 			      <NavLink 
 			      		to="/home"
+			      		className="nav-img"
 			      	>
-		      		<img src="/img/main.jpeg" className="nav-img"/>
+		      		<img src="/img/main.jpeg"/>
 	      		</NavLink>
 			      <li className="nav-item">
 			      	<NavLink 
