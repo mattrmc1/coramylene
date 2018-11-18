@@ -26,7 +26,7 @@ export default class Hexagons extends Component {
 	render(){
 		return(
 			<div>
-				<div class="list-hex-grid clearfix" style={{paddingTop: 2}}>
+				<div class="hex-grid clearfix">
 					{images.map( (path, index) => {
 						if ( index === 3 || index === 7 )
 							return [<br/>, <Hex path={path} handleClick={this.handleHexClick}/>]
