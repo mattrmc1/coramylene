@@ -7,8 +7,7 @@ export default {
   getRoutes: async () => {
     return [
       {
-        path: '/home',
-        exact: true,
+        path: '/',
         component: 'src/containers/Home',
       },
       {
@@ -20,7 +19,7 @@ export default {
         component: 'src/containers/About',
       },
       {
-        path: '/contact',
+        path: '/contact/:subsection',
         component: 'src/containers/Contact',
       },
       {

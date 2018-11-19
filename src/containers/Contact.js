@@ -1,6 +1,8 @@
 import React from 'react';
 import { withSiteData } from 'react-static'
 
+import Contact from '../components/contact/Contact';
+
 export default withSiteData(() => (
-	<h1>Contact</h1>
+	<Contact />
 ))

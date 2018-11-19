@@ -13,7 +13,6 @@ const App = () => (
     <div className="root-container">
       <Navigation />
       <main className="content">
-        <Redirect from="/" to="/home" />
         <Routes />
       </main>
       <Footer />

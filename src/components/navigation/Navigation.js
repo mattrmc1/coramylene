@@ -21,7 +21,8 @@ export default class Navigation extends Component {
 			    <ul className="navbar-nav m-auto">
 			    	<li className="nav-item mobile-only">
 			      	<NavLink 
-			      		to="/home"
+			      		to="/"
+			      		exact
 			      		className="nav-link text-right"
 			      		active="active"
 			      	>
@@ -47,14 +48,15 @@ export default class Navigation extends Component {
 		      		</NavLink>
 			      </li>
 			      <NavLink 
-			      		to="/home"
+			      		to="/"
 			      		className="nav-img"
+			      		exact
 			      	>
 		      		<img src="/img/main.jpeg"/>
 	      		</NavLink>
 			      <li className="nav-item">
 			      	<NavLink 
-			      		to="/contact"
+			      		to="/contact/top"
 			      		className="nav-link dropdown"
 			      		active="active"
 			      	>
