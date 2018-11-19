@@ -2,5 +2,19 @@ import React from 'react';
 import { withSiteData } from 'react-static'
 
 export default withSiteData(() => (
-	<h1>Gallery</h1>
+	<div>
+		<h1>Gallery</h1>
+		<h1>Gallery</h1>
+		<h1>Gallery</h1>
+		<h1>Gallery</h1>
+		<h1>Gallery</h1>
+		<h1>Gallery</h1>
+		<h1>Gallery</h1>
+		<h1>Gallery</h1>
+		<h1>Gallery</h1>
+		<h1>Gallery</h1>
+		<h1>Gallery</h1>
+		<h1>Gallery</h1>
+		<h1>Gallery</h1>
+	</div>
 ))
