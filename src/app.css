@@ -7,6 +7,10 @@
   src: url('/fonts/Brandon_reg.otf');
 }
 @font-face {
+  font-family: "Brandon-Italic";
+  src: url('/fonts/Brandon_reg_it.otf');
+}
+@font-face {
   font-family: "Brandon-Thin";
   src: url('/fonts/Brandon_thin.otf');
 }
@@ -24,25 +28,45 @@ body {
   background-color: #1d0000;
   min-height: 100vh;
   background-size: auto;
-  color: #561717;
+  color: #fff;
 
   display: flex;
   flex-direction: column;
 }
 
+em {
+  font-family: "Brandon-Italic";
+}
+
+strong {
+  font-weight: bold;
+}
+
+hr {
+  border-color: #fff;
+  width: 80%;
+}
+
 a {
   text-decoration: none;
   color: #fff;
+  transition: all .2s ease-in-out;
 }
 a:hover {
   text-decoration: none;
+  cursor: pointer;
+  color: #954D4D;
+  transition: all .2s ease-in-out;
 }
 
 h1 {
   font-family: "Brandon-Reg";
   font-size: 6rem;
-  color: white;
-  padding: 30px;
+  padding: 30px 0;
+}
+h2 {
+  font-family: "Brandon-Reg";
+  font-size: 4rem;
 }
 
 img {
@@ -67,6 +91,18 @@ nav a {
 
 .content {
   padding: 1rem;
+}
+
+.list-plain {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.text-link {
+  color: #954D4D;
+}
+.text-link:hover {
+  color: #561717;
 }
 
 /*navigation*/
@@ -111,8 +147,8 @@ nav a {
   transition: all .2s ease-in-out;
 }
 .dropdown:hover .dropdown-menu,
-.dropdown:focus .dropdown-menu,
-.dropdown:focus-within .dropdown-menu {
+/*.dropdown:focus-within .dropdown-menu,*/
+.dropdown:focus .dropdown-menu{
   opacity: 1;
   letter-spacing: .4rem;
 
@@ -167,16 +203,6 @@ nav a {
 .footer-right {
   margin-left: auto;
   color: #fff;
-}
-
-.footer-link {
-  transition: all .2s ease-in-out;
-}
-
-.footer-link:hover {
-  color: #954D4D!important;
-  cursor: pointer;
-  transition: all .2s ease-in-out;
 }
 
 /*Hexagon*/
@@ -271,12 +297,29 @@ nav a {
   padding: 0;
 }
 
+/*faq*/
+
+.faq-list {
+  padding-bottom: 40px;
+  font-size: 18px;
+}
+
+.faq-list strong {
+  font-size: 20px;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 3rem;
   }
+  h2 {
+    font-size: 2.5rem;
+  }
   .mobile-only {
     display: block;
+  }
+  .desktop-only {
+    display: none;
   }
   .nav-item {
     margin-right: auto;
@@ -339,6 +382,10 @@ nav a {
   }
   .hex-right {
     display: none;
+  }
+  .footer-content div {
+    width: 100%;
+    text-align: center;
   }
 }
 

@@ -19,12 +19,24 @@ export default {
         component: 'src/containers/About',
       },
       {
-        path: '/contact/:subsection',
+        path: '/contact',
         component: 'src/containers/Contact',
+      },
+      {
+        path: '/booking',
+        component: 'src/containers/Booking',
+      },
+      {
+        path: '/inquiries',
+        component: 'src/containers/Inquiries',
       },
       {
         path: '/store',
         component: 'src/containers/Store',
+      },
+      {
+        path: '/faq',
+        component: 'src/containers/FAQ',
       },
       {
         is404: true,

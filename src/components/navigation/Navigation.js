@@ -56,20 +56,20 @@ export default class Navigation extends Component {
 	      		</NavLink>
 			      <li className="nav-item">
 			      	<NavLink 
-			      		to="/contact/top"
+			      		to="/contact"
 			      		className="nav-link dropdown"
 			      		active="active"
 			      	>
 			      		Contact
 			      		<div className="dropdown-menu">
 				          <NavLink 
-				          	to="/contact/booking"
+				          	to="/booking"
 				          	className="dropdown-item"
 				          >
 				          	Booking
 				          </NavLink>
 				          <NavLink 
-				          	to="/contact/inquiries"
+				          	to="/inquiries"
 				          	className="dropdown-item"
 				          >
 				          	Inquiries
