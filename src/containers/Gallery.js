@@ -1,20 +1,8 @@
 import React from 'react';
 import { withSiteData } from 'react-static'
 
+import Gallery from '../components/gallery/Gallery';
+
 export default withSiteData(() => (
-	<div>
-		<h1>Gallery</h1>
-		<h1>Gallery</h1>
-		<h1>Gallery</h1>
-		<h1>Gallery</h1>
-		<h1>Gallery</h1>
-		<h1>Gallery</h1>
-		<h1>Gallery</h1>
-		<h1>Gallery</h1>
-		<h1>Gallery</h1>
-		<h1>Gallery</h1>
-		<h1>Gallery</h1>
-		<h1>Gallery</h1>
-		<h1>Gallery</h1>
-	</div>
+	<Gallery />
 ))
