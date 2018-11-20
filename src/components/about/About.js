@@ -13,7 +13,11 @@ export default class About extends Component {
 	    			<div className="row">
 	    				<div className="col-lg-6">
 			    			<div className="about-img">
-			    				<img className="about-img" src="/img/about.png"/>
+			    				<img 
+			    					className="about-img" 
+			    					src="/img/about.png" 
+			    					onError={ i => i.target.style.display = "none" }
+			    				/>
 		    				</div>
 	    				</div>
 	    				<div className="col-lg-6">
