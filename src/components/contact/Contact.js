@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-static';
 
 export default class Contact extends Component {
 	render(){
@@ -9,12 +10,12 @@ export default class Contact extends Component {
 				<br/>
 				<h3>
 					<a href={`mailto:coramylene@gmail.com?Subject=${this.props.subject}`}>
-						<i className="fas fa-envelope" style={{paddingRight: "1rem"}}/>
+						<i className="fas fa-envelope contact-icon"/>
 						coramylene@gmail.com
 					</a>
-					<br/><br/>
+					<br/>
 					<a target="_blank" href="https://www.instagram.com/cora_mylene/">
-						<i className="fab fa-instagram" style={{paddingRight: ".5rem"}}/>
+						<i className="fab fa-instagram contact-icon"/>
 						@cora_mylene
 					</a>
 				</h3>
@@ -26,6 +27,28 @@ export default class Contact extends Component {
 					<br/>
 					Austin, TX 78757			
 				</h3>
+				<br/>
+				<hr style={{width: "35%"}}/>
+				<div className="row contact-links-container">
+					<div className="col-6">
+						<Link
+							className="contact-link"
+							to="/booking"
+						>
+							Booking
+							<hr className="contact-divider"/>
+						</Link>
+					</div>
+					<div className="col-6">
+						<Link
+							className="contact-link"
+							to="inquiries"
+						>
+							Inquiries
+							<hr className="contact-divider"/>
+						</Link>
+					</div>
+				</div>
 			</div>
 		)
 	}

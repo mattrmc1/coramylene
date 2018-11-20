@@ -16,8 +16,7 @@
 }
 
 body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
-    'Lucida Grande', sans-serif;
+  font-family: 'Brandon-Reg', sans-serif;
   font-weight: 300;
   font-size: 16px;
   margin: 0;
@@ -55,7 +54,7 @@ a {
 a:hover {
   text-decoration: none;
   cursor: pointer;
-  color: #954D4D;
+  color: #E0A6A6;
   transition: all .2s ease-in-out;
 }
 
@@ -101,11 +100,15 @@ nav a {
 .text-link {
   color: #954D4D;
 }
-.text-link:hover {
-  color: #561717;
-}
 
 /*navigation*/
+
+.navigation-insta {
+  display: none;
+  font-size: 1.25rem;
+  background: transparent;
+  border: none;
+}
 
 .nav-item {
   margin: 0 10px;
@@ -328,6 +331,30 @@ nav a {
   border: 1px solid #954D4D;
 }
 
+/*contact*/
+.contact-icon {
+  padding: .5rem;
+}
+.contact-links-container {
+  margin-top: 30px;
+}
+.contact-link {
+  font-size: 4rem;
+}
+.contact-link:hover {
+  color: #E0A6A6;
+}
+.contact-divider {
+  width: 0%;
+
+  transition: all .2s ease-in-out;
+}
+.contact-link:hover > .contact-divider {
+  width: 20%;
+
+  transition: all .2s ease-in-out;
+}
+
 /*faq*/
 .faq-list {
   padding-bottom: 40px;
@@ -345,11 +372,23 @@ nav a {
   h2 {
     font-size: 2.5rem;
   }
+  h3 {
+    font-size: 1.25rem;
+  }
+  a {
+    color: #E0A6A6;
+  }
+  a i {
+    color: #fff;
+  }
   .mobile-only {
     display: block;
   }
   .desktop-only {
     display: none;
+  }
+  .navigation-insta {
+    display: block;
   }
   .nav-item {
     margin-right: auto;
@@ -404,7 +443,7 @@ nav a {
     margin: 10px 0;
   }
   .hex-image {
-    height: 200px;
+    height: 400px;
     background-size: cover;
   }
   .hex-left {
@@ -416,6 +455,12 @@ nav a {
   .about-img {
     text-align: center;
     margin-bottom: 15px;
+  }
+  .contact-links-container {
+    margin-top: 0;
+  }
+  .contact-link {
+    font-size: 2rem;
   }
   .footer-content div {
     width: 100%;

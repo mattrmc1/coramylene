@@ -9,15 +9,19 @@ export default class Navigation extends Component {
 			  	className="navbar-toggler" 
 			  	type="button" 
 			  	data-toggle="collapse" 
-			  	data-target="#navbarSupportedContent" 
-			  	aria-controls="navbarSupportedContent" 
+			  	data-target="#NavbarMain" 
+			  	aria-controls="NavbarMain" 
 			  	aria-expanded="false" 
 			  	aria-label="Toggle navigation"
 			  >
 			    <i className="text-white fas fa-bars"></i>
 			  </button>
 
-			  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+			  <a className="navigation-insta" target="blank" href="https://www.instagram.com/cora_mylene/">
+			  	<i className="text-white fab fa-instagram ml-auto"/>
+			  </a>
+
+			  <div className="collapse navbar-collapse" id="NavbarMain">
 			    <ul className="navbar-nav m-auto">
 			    	<li className="nav-item mobile-only">
 			      	<NavLink 
