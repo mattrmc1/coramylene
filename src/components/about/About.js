@@ -8,8 +8,7 @@ export default class About extends Component {
 			<div className="container">
 	    	<div className="row">
 	    		<div className="col-md-9">
-	    			<h2>About Me</h2>
-	    			<br/>
+	    			<h2 className="pb-20">About Me</h2>
 	    			<div className="row">
 	    				<div className="col-lg-6">
 			    			<div className="about-img">

@@ -11,8 +11,7 @@ export default class Inquiries extends Component {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-9">
-						<h2>Inquiries</h2>
-						<br/><br/>
+						<h2 className="pb-20">Inquiries</h2>
 						<p>When inquiring about a tattoo, please give me the following information in your email:</p>
 						<ul>
 							<li>A brief description of your tattoo concept and your style preference if you have one. </li>
@@ -20,7 +19,6 @@ export default class Inquiries extends Component {
 							<li>Reference photos (if any) and short descriptions identifying what you like/dislike about the image so that I can understand what you like as best as I can. </li>
 							<li>Availability. Please note that weekends are booked the fastest, so include days/times that work for you during the week as well. I work Wednesday - Saturday and have 2 slots per day, noon and 5 pm. Please only give availability that falls within those days/times.</li>
 						</ul>
-						<br/>
 						<p>
 							<strong>Once that is done:</strong>
 						</p>

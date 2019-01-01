@@ -35,7 +35,7 @@ export default class Contact extends Component {
 							className="contact-link"
 							to="/booking"
 						>
-							Booking
+							Booking&nbsp;<small><i className="fas fa-arrow-right"/></small>
 							<hr className="contact-divider"/>
 						</Link>
 					</div>
@@ -44,7 +44,7 @@ export default class Contact extends Component {
 							className="contact-link"
 							to="inquiries"
 						>
-							Inquiries
+							Inquiries&nbsp;<small><i className="fas fa-arrow-right"/></small>
 							<hr className="contact-divider"/>
 						</Link>
 					</div>

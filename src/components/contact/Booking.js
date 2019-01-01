@@ -11,9 +11,7 @@ export default class Booking extends Component {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-9">
-						<h2>Booking</h2>
-						<small><em>({moment().isAfter('2019-1-1') ? "as of" : "starting in"} 2019)</em></small>
-						<br/><br/>
+						<h2 className="pb-20">Booking</h2>
 						<p>My books open 4 times a year on the following dates:</p>
 						<ul>
 							<li>January 15th</li>
@@ -21,7 +19,6 @@ export default class Booking extends Component {
 							<li>July 15th</li>
 							<li>October 15th</li>
 						</ul>
-						<br/>
 						<p>
 							These booking dates are the starting dates in which I will be responding to emails and setting appointments with new clients. Once I have booked out for that quarter, I will close my books. If you do not get a personal email reply it’s because I have booked all available appointments and/or I’m not the right fit for your tattoo concept.
 						</p>
