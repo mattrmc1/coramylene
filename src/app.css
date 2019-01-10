@@ -148,12 +148,12 @@ nav a {
   transition: all .2s ease-in-out;
 }
 .nav-link:hover {
-  color: #561717;
+  color: #fff;
   letter-spacing: .6rem;
   transition: all .2s ease-in-out;
 }
 .nav-link.active {
-  color: #954D4D;
+  color: #E0A6A6;
   letter-spacing: .6rem;
   transition: all .2s ease-in-out;
 }
@@ -170,7 +170,6 @@ nav a {
   transition: all .2s ease-in-out;
 }
 .dropdown:hover .dropdown-menu,
-/*.dropdown:focus-within .dropdown-menu,*/
 .dropdown:focus .dropdown-menu{
   opacity: 1;
   letter-spacing: .4rem;

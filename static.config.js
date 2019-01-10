@@ -23,11 +23,11 @@ export default {
         component: 'src/containers/Contact',
       },
       {
-        path: '/booking',
+        path: '/contact/booking',
         component: 'src/containers/Booking',
       },
       {
-        path: '/inquiries',
+        path: '/contact/inquiries',
         component: 'src/containers/Inquiries',
       },
       {

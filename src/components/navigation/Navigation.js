@@ -67,13 +67,13 @@ export default class Navigation extends Component {
 			      		Contact
 			      		<div className="dropdown-menu">
 				          <NavLink 
-				          	to="/booking"
+				          	to="/contact/booking"
 				          	className="dropdown-item"
 				          >
 				          	Booking
 				          </NavLink>
 				          <NavLink 
-				          	to="/inquiries"
+				          	to="/contact/inquiries"
 				          	className="dropdown-item"
 				          >
 				          	Inquiries
