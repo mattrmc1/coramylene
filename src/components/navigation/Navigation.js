@@ -56,7 +56,7 @@ export default class Navigation extends Component {
 			      		className="nav-img"
 			      		exact
 			      	>
-		      		<img src="/img/main.jpeg" onError={i => i.target.style.display = "none"} alt="Cora Mylene"/>
+		      		<img src="img/main.jpeg" onError={i => i.target.style.display = "none"} alt="Cora Mylene"/>
 	      		</NavLink>
 			      <li className="nav-item">
 			      	<NavLink 

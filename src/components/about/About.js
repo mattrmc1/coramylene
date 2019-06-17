@@ -10,7 +10,7 @@ export default () => (
 				<div className="row">
 					<div className="col-lg-6">
 						<div className="about-img">
-							<img className="about-img" src="/img/about.png" onError={ i => i.target.style.display = "none" } alt="Cora Mylene"/>
+							<img className="about-img" src="img/about.png" onError={ i => i.target.style.display = "none" } alt="Cora Mylene"/>
 						</div>
 					</div>
 					<div className="col-lg-6">

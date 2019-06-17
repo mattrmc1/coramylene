@@ -6,7 +6,7 @@ import Hex from './Hex';
 const createImagePaths = (first, last) => {
 	let images = [];
 	for (let i = first; i <= last; i++) {
-		images.push(`/img/portfolio/${i}.jpeg`)
+		images.push(`img/portfolio/${i}.jpeg`)
 	}
 	return images
 }
@@ -16,7 +16,7 @@ const images = createImagePaths(1,10);
 export default class Hexagons extends Component {
 
 	state = {
-		selected: "/img/portfolio/1.jpeg"
+		selected: "img/portfolio/1.jpeg"
 	}
 
 	handleHexClick = (path) => {

@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Brandon-Black";
-  src: url('/fonts/Brandon_blk.otf');
+  src: url('fonts/Brandon_blk.otf');
 }
 @font-face {
   font-family: "Brandon-Reg";
-  src: url('/fonts/Brandon_reg.otf');
+  src: url('fonts/Brandon_reg.otf');
 }
 @font-face {
   font-family: "Brandon-Italic";
-  src: url('/fonts/Brandon_reg_it.otf');
+  src: url('fonts/Brandon_reg_it.otf');
 }
 @font-face {
   font-family: "Brandon-Thin";
-  src: url('/fonts/Brandon_thin.otf');
+  src: url('fonts/Brandon_thin.otf');
 }
 
 body {
@@ -21,7 +21,7 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background-image: url('/img/background.jpg');
+  background-image: url('img/background.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-color: #1d0000;
