@@ -18,7 +18,7 @@ function App() {
     <Router>
       <Navigation/>
       <main className="content">
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/home" component={Home}/>
         <Route exact path="/gallery" component={Gallery}/>
         <Route exact path="/about" component={About}/>
         <Route exact path="/contact" component={Contact}/>
@@ -26,6 +26,7 @@ function App() {
         <Route exact path="/contact/inquiries" component={Inquiries}/>
         <Route exact path="/store" component={Store}/>
         <Route exact path="/faq" component={FAQ}/>
+        <Route component={Home}/>
       </main>
       <Footer />
     </Router>

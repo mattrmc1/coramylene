@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import Logo from "../../assets/img/main.jpeg";
 
 export default class Navigation extends Component {
 	render(){
@@ -56,7 +57,7 @@ export default class Navigation extends Component {
 			      		className="nav-img"
 			      		exact
 			      	>
-		      		<img src="img/main.jpeg" onError={i => i.target.style.display = "none"} alt="Cora Mylene"/>
+		      		<img src={Logo} onError={i => i.target.style.display = "none"} alt="Cora Mylene"/>
 	      		</NavLink>
 			      <li className="nav-item">
 			      	<NavLink 

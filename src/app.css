@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Brandon-Black";
-  src: url('fonts/Brandon_blk.otf');
+  src: url('./assets/fonts/Brandon_blk.otf');
 }
 @font-face {
   font-family: "Brandon-Reg";
-  src: url('fonts/Brandon_reg.otf');
+  src: url('./assets/fonts/Brandon_reg.otf');
 }
 @font-face {
   font-family: "Brandon-Italic";
-  src: url('fonts/Brandon_reg_it.otf');
+  src: url('./assets/fonts/Brandon_reg_it.otf');
 }
 @font-face {
   font-family: "Brandon-Thin";
-  src: url('fonts/Brandon_thin.otf');
+  src: url('./assets/fonts/Brandon_thin.otf');
 }
 
 body {
@@ -21,7 +21,7 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background-image: url('img/background.jpg');
+  background-image: url('./assets/img/background.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-color: #1d0000;
@@ -302,6 +302,37 @@ nav a {
 }
 .hex-right:before {
   bottom:0;
+}
+
+.hex-image-1 {
+  background-image: url('./assets/img/portfolio/1.jpeg')
+}
+.hex-image-2 {
+  background-image: url('./assets/img/portfolio/2.jpeg')
+}
+.hex-image-3 {
+  background-image: url('./assets/img/portfolio/3.jpeg')
+}
+.hex-image-4 {
+  background-image: url('./assets/img/portfolio/4.jpeg')
+}
+.hex-image-5 {
+  background-image: url('./assets/img/portfolio/5.jpeg')
+}
+.hex-image-6 {
+  background-image: url('./assets/img/portfolio/6.jpeg')
+}
+.hex-image-7 {
+  background-image: url('./assets/img/portfolio/7.jpeg')
+}
+.hex-image-8 {
+  background-image: url('./assets/img/portfolio/8.jpeg')
+}
+.hex-image-9 {
+  background-image: url('./assets/img/portfolio/9.jpeg')
+}
+.hex-image-10 {
+  background-image: url('./assets/img/portfolio/10.jpeg')
 }
 
 /*carousel*/
