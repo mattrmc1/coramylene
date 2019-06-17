@@ -11,6 +11,7 @@ import Inquiries from './components/contact/Inquiries';
 import Store from './components/store/Store';
 import FAQ from './components/FAQ';
 import Navigation from './components/navigation/Navigation';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/store" component={Store}/>
         <Route exact path="/faq" component={FAQ}/>
       </main>
+      <Footer />
     </Router>
   );
 }
