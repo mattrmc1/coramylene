@@ -1,2 +1,0 @@
-webpackJsonp([7],{56:function(e,t,u){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=u(0),r=function(e){return e&&e.__esModule?e:{default:e}}(n),a=u(13);t.default=(0,a.withSiteData)(function(){return r.default.createElement("h1",null,"Store")})}});
-//# sourceMappingURL=Store.4feda526.js.map

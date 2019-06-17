@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/coramylene/static/css/main.3662f856.chunk.css",
+    "main.js": "/coramylene/static/js/main.3944c40e.chunk.js",
+    "main.js.map": "/coramylene/static/js/main.3944c40e.chunk.js.map",
+    "runtime~main.js": "/coramylene/static/js/runtime~main.56a35cc5.js",
+    "runtime~main.js.map": "/coramylene/static/js/runtime~main.56a35cc5.js.map",
+    "static/js/2.49bed550.chunk.js": "/coramylene/static/js/2.49bed550.chunk.js",
+    "static/js/2.49bed550.chunk.js.map": "/coramylene/static/js/2.49bed550.chunk.js.map",
+    "index.html": "/coramylene/index.html",
+    "precache-manifest.908f3c286dfa1d1868f62f1bece785d9.js": "/coramylene/precache-manifest.908f3c286dfa1d1868f62f1bece785d9.js",
+    "service-worker.js": "/coramylene/service-worker.js",
+    "static/css/main.3662f856.chunk.css.map": "/coramylene/static/css/main.3662f856.chunk.css.map"
+  }
+}
