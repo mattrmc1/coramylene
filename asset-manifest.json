@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/coramylene/static/css/main.52694112.chunk.css",
+    "main.css": "/coramylene/static/css/main.2a1c7d32.chunk.css",
     "main.js": "/coramylene/static/js/main.49b86225.chunk.js",
     "main.js.map": "/coramylene/static/js/main.49b86225.chunk.js.map",
     "runtime~main.js": "/coramylene/static/js/runtime~main.56a35cc5.js",
@@ -8,8 +8,9 @@
     "static/js/2.49bed550.chunk.js": "/coramylene/static/js/2.49bed550.chunk.js",
     "static/js/2.49bed550.chunk.js.map": "/coramylene/static/js/2.49bed550.chunk.js.map",
     "index.html": "/coramylene/index.html",
-    "precache-manifest.c0b95b1a42cc4b0d315254358c5cfa76.js": "/coramylene/precache-manifest.c0b95b1a42cc4b0d315254358c5cfa76.js",
+    "precache-manifest.634fba5ea5421e1f5e800944b83ab9c9.js": "/coramylene/precache-manifest.634fba5ea5421e1f5e800944b83ab9c9.js",
     "service-worker.js": "/coramylene/service-worker.js",
-    "static/css/main.52694112.chunk.css.map": "/coramylene/static/css/main.52694112.chunk.css.map"
+    "static/css/main.2a1c7d32.chunk.css.map": "/coramylene/static/css/main.2a1c7d32.chunk.css.map",
+    "static/media/App.css": "/coramylene/static/media/background.f8e7d3c1.jpg"
   }
 }
