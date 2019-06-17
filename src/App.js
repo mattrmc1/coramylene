@@ -20,6 +20,7 @@ function App() {
       <main className="content">
         <Switch>
           <Route exact path="/" component={Home}/>
+          <Route exact path="/coramylene" component={Home}/>
           <Route exact path="/gallery" component={Gallery}/>
           <Route exact path="/about" component={About}/>
           <Route exact path="/contact" component={Contact}/>
