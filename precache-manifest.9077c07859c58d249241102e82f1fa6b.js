@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "098807998df0a1772ffb2525d9e40aba",
+    "revision": "438771bc292725038e97bb1be08f3106",
     "url": "/coramylene/index.html"
   },
   {
-    "revision": "4ee424d33435e4ce3dca",
+    "revision": "a888f481fcd2d74c673b",
     "url": "/coramylene/static/css/main.77681bdc.chunk.css"
   },
   {
-    "revision": "d075f0f9dbf2353a5cd0",
-    "url": "/coramylene/static/js/2.b24948b3.chunk.js"
+    "revision": "63d26324b28f836b1992",
+    "url": "/coramylene/static/js/2.1c05f6f7.chunk.js"
   },
   {
-    "revision": "4ee424d33435e4ce3dca",
-    "url": "/coramylene/static/js/main.e64f0204.chunk.js"
+    "revision": "a888f481fcd2d74c673b",
+    "url": "/coramylene/static/js/main.ecd5fcda.chunk.js"
   },
   {
     "revision": "6f2eb16f111e38b973c1",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/coramylene/precache-manifest.386491ba411d9eaa73c4d973a57823cf.js"
+  "/coramylene/precache-manifest.9077c07859c58d249241102e82f1fa6b.js"
 );
 
 self.addEventListener('message', (event) => {
