@@ -50,7 +50,7 @@ export default class Gallery extends Component {
 	renderRows = (number) => {
 		let content = [];
 		for (var i = 0; i < number; i++) {
-			content.push(<div className="col-6 gallery-row">{this.renderGrid()}</div>)
+			content.push(<div key={`gallery-${i}`} className="col-6 gallery-row">{this.renderGrid()}</div>)
 		}
 		return content
 	}

@@ -10,7 +10,7 @@ export default class FAQ extends Component {
 				<br/>
 				<ul className="list-plain">
 					{faqs.map( faq => (
-						<li className="faq-list">
+						<li key={faq.question} className="faq-list">
 							<strong><em>{faq.question}</em></strong>
 							<br/>
 							{faq.answer}

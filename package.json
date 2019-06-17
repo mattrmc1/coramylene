@@ -1,30 +1,33 @@
 {
-  "name": "react-static-example-basic",
-  "version": "1.0.1",
-  "main": "index.js",
-  "license": "MIT",
-  "homepage": "https://mattrmc1.github.io/coramylene/",
-  "scripts": {
-    "start": "react-static start",
-    "stage": "react-static build --staging",
-    "build": "react-static build",
-    "bundle": "react-static bundle",
-    "export": "react-static export",
-    "serve": "serve dist -p 3000"
-  },
+  "name": "cora-mylene",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "axios": "^0.16.2",
-    "gh-pages": "^2.0.1",
-    "moment": "^2.22.2",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-hot-loader": "^4.0.0-beta.21",
-    "react-router": "^4.2.0",
-    "react-scroll": "^1.7.10",
-    "react-static": "^5.9.12"
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1"
   },
-  "devDependencies": {
-    "eslint-config-react-tools": "1.x.x",
-    "serve": "^6.1.0"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

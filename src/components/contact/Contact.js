@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-static';
+import { Link } from 'react-router-dom';
 
 export default class Contact extends Component {
 	render(){
@@ -33,7 +33,7 @@ export default class Contact extends Component {
 					<div className="col-6">
 						<Link
 							className="contact-link"
-							to="/booking"
+							to="/contact/booking"
 						>
 							Booking&nbsp;<small><i className="fas fa-arrow-right"/></small>
 							<hr className="contact-divider"/>
@@ -42,7 +42,7 @@ export default class Contact extends Component {
 					<div className="col-6">
 						<Link
 							className="contact-link"
-							to="inquiries"
+							to="/contact/inquiries"
 						>
 							Inquiries&nbsp;<small><i className="fas fa-arrow-right"/></small>
 							<hr className="contact-divider"/>

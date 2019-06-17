@@ -26,11 +26,11 @@ export default class Hexagons extends Component {
 	render(){
 		return(
 			<div>
-				<div class="hex-grid">
+				<div className="hex-grid">
 					{images.map( (path, index) => {
 						if ( index === 3 || index === 7 )
-							return [<br/>, <Hex path={path} handleClick={this.handleHexClick}/>]
-						return <Hex path={path} handleClick={this.handleHexClick}/>
+							return [<br key={`break-${index}`}/>, <Hex key={`hex-${index}`} path={path} handleClick={this.handleHexClick}/>]
+						return <Hex key={`hex-${index}`} path={path} handleClick={this.handleHexClick}/>
 					})}
 				</div>
 				<Carousel selected={this.state.selected} images={images}/>
