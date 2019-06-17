@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/coramylene/static/css/main.2a1c7d32.chunk.css",
-    "main.js": "/coramylene/static/js/main.c46c218f.chunk.js",
-    "main.js.map": "/coramylene/static/js/main.c46c218f.chunk.js.map",
+    "main.css": "/coramylene/static/css/main.77681bdc.chunk.css",
+    "main.js": "/coramylene/static/js/main.c66e1452.chunk.js",
+    "main.js.map": "/coramylene/static/js/main.c66e1452.chunk.js.map",
     "runtime~main.js": "/coramylene/static/js/runtime~main.56a35cc5.js",
     "runtime~main.js.map": "/coramylene/static/js/runtime~main.56a35cc5.js.map",
-    "static/js/2.67dcbdc7.chunk.js": "/coramylene/static/js/2.67dcbdc7.chunk.js",
-    "static/js/2.67dcbdc7.chunk.js.map": "/coramylene/static/js/2.67dcbdc7.chunk.js.map",
+    "static/js/2.007cfcda.chunk.js": "/coramylene/static/js/2.007cfcda.chunk.js",
+    "static/js/2.007cfcda.chunk.js.map": "/coramylene/static/js/2.007cfcda.chunk.js.map",
     "index.html": "/coramylene/index.html",
-    "precache-manifest.f0a387151823cbbf4a1ed68cb6e2b17c.js": "/coramylene/precache-manifest.f0a387151823cbbf4a1ed68cb6e2b17c.js",
+    "precache-manifest.866c35a8e442b99f49a83883767f6dbd.js": "/coramylene/precache-manifest.866c35a8e442b99f49a83883767f6dbd.js",
     "service-worker.js": "/coramylene/service-worker.js",
-    "static/css/main.2a1c7d32.chunk.css.map": "/coramylene/static/css/main.2a1c7d32.chunk.css.map",
+    "static/css/main.77681bdc.chunk.css.map": "/coramylene/static/css/main.77681bdc.chunk.css.map",
     "static/media/App.css": "/coramylene/static/media/background.f8e7d3c1.jpg",
-    "static/media/about.png": "/coramylene/static/media/about.4a7c16e9.png"
+    "static/media/about.png": "/coramylene/static/media/about.4a7c16e9.png",
+    "static/media/main.jpeg": "/coramylene/static/media/main.0b9e4882.jpeg"
   }
 }
