@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad2db0ca53db760a893b1c5a08806965",
+    "revision": "fcba2bb5ed38eed9adb4a4538c4d1d9d",
     "url": "/coramylene/index.html"
   },
   {
-    "revision": "37cb804996a67a660da8",
+    "revision": "57beb6041ba5ed131756",
     "url": "/coramylene/static/css/main.2a1c7d32.chunk.css"
   },
   {
-    "revision": "a7b8c443f892cdd6c1bb",
-    "url": "/coramylene/static/js/2.49bed550.chunk.js"
+    "revision": "42e3d1ea5a41c0f31096",
+    "url": "/coramylene/static/js/2.67dcbdc7.chunk.js"
   },
   {
-    "revision": "37cb804996a67a660da8",
-    "url": "/coramylene/static/js/main.a051c912.chunk.js"
+    "revision": "57beb6041ba5ed131756",
+    "url": "/coramylene/static/js/main.c46c218f.chunk.js"
   },
   {
     "revision": "6f2eb16f111e38b973c1",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4be7a96e18ec1d5b1a0a4a212cefbef9",
     "url": "/coramylene/static/media/Brandon_thin.4be7a96e.otf"
+  },
+  {
+    "revision": "4a7c16e9819148da2d2b1efee3f28c1d",
+    "url": "/coramylene/static/media/about.4a7c16e9.png"
   },
   {
     "revision": "f8e7d3c14a3f857855e242a659e7caba",
