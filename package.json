@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
+  "homepage": "https://mattrmc1.github.io/coramylene/",
   "scripts": {
     "start": "react-static start",
     "stage": "react-static build --staging",
